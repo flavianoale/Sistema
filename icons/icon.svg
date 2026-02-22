@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Ascensão OS">
+  <rect width="512" height="512" fill="#070c09"/>
+  <rect x="36" y="36" width="440" height="440" fill="none" stroke="#2eff75" stroke-width="20"/>
+  <rect x="78" y="78" width="356" height="356" fill="none" stroke="#1f6f3d" stroke-width="8"/>
+  <text x="256" y="244" text-anchor="middle" fill="#2eff75" font-size="96" font-family="Courier New, Consolas, monospace" font-weight="700">AOS</text>
+  <text x="256" y="310" text-anchor="middle" fill="#7db692" font-size="28" font-family="Courier New, Consolas, monospace">ASCENSÃO OS</text>
+</svg>
