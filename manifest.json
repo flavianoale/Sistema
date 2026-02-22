@@ -1,0 +1,13 @@
+{
+  "name": "Ascensão OS",
+  "short_name": "AscensãoOS",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#070c09",
+  "theme_color": "#09130d",
+  "lang": "pt-BR",
+  "description": "Sistema offline-first de rotina, treino, dieta, estudos e missão pessoal.",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
