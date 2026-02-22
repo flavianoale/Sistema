@@ -1,0 +1,14 @@
+{
+  "name": "ASCENSÃO OS",
+  "short_name": "Ascensão",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0b0f11",
+  "theme_color": "#0b0f11",
+  "lang": "pt-BR",
+  "description": "Sistema offline-first de evolução real com gamificação.",
+  "icons": [
+    {"src":"icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"},
+    {"src":"icons/icon-180.svg","sizes":"180x180","type":"image/svg+xml","purpose":"any"}
+  ]
+}
