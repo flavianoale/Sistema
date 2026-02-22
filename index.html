@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0f11" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Ascensão OS" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon-180.svg" />
+  <title>ASCENSÃO OS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="boot-screen" class="screen active">
+    <h1>ASCENSÃO OS // NEXUS</h1>
+    <p>INICIAR SISTEMA (Toque para conectar)</p>
+    <button id="boot-btn" class="primary">Conectar</button>
+    <pre id="boot-log"></pre>
+    <div class="progress-wrap"><div id="boot-bar"></div></div>
+  </div>
+
+  <div id="app" class="hidden">
+    <header>
+      <h2>ASCENSÃO OS</h2>
+      <div id="hud"></div>
+    </header>
+
+    <nav id="tabs"></nav>
+    <main id="content"></main>
+
+    <div id="toast"></div>
+  </div>
+
+  <dialog id="modal">
+    <form method="dialog" id="modal-form">
+      <h3 id="modal-title"></h3>
+      <div id="modal-body"></div>
+      <menu>
+        <button value="cancel">Cancelar</button>
+        <button value="default" class="primary">Confirmar</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
